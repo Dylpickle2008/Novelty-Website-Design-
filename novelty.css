@@ -10,7 +10,7 @@
 }
 
 .title:hover{
-    opacity: 0.65;
+    opacity: 0.85;
     transition: 2s
 }
 
@@ -33,6 +33,17 @@
 
 .clicker:hover{
     opacity: 1;
+}
+
+@keyframes spin {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}
+
+.clicker {
+    animation: spin 2s linear infinite; 
+        background-color: white
+        color whitesmoke; 
 }
 
 .footer{
