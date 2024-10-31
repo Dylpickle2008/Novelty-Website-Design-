@@ -10,7 +10,7 @@
 }
 
 .title:hover{
-    opacity: 0.85;
+    opacity: 0.9;
     transition: 2s
 }
 
@@ -69,6 +69,11 @@
     opacity: 1 
 }
 
+@keyframes blink {
+    from { opacity: 1; }
+    to { opacity: 0; }
+}
+
 .coin:hover{
     opacity: 0
 }
@@ -83,3 +88,4 @@ body {
     min-height: 100%;
     min-height: 100vh;
   }
+
